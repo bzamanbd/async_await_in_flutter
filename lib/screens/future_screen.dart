@@ -27,7 +27,7 @@ class FutureScreen extends StatelessWidget {
         child: ElevatedButton(
             onPressed: () async {
               //bcoz ati akti function //
-              await getData(); //await namae holo ami agae porae shob//
+              await getData(); //await manae holo,ami agae porae shob//
               print('(async-await) na thaklae ami agae print hobo');
             },
             child: const Text('ClickMe')),
